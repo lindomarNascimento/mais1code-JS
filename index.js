@@ -1,41 +1,8 @@
-// >
-// < 
-// >=
-// <=
-// ==      = apenas o valor
-// ===     = comparar tipo e o valor
-// !=      = apenas o valor
-// !==        = comparar tipo e o valor
-
-// verdadeiro e falso = verdedeiro
-// falso e verdadeiro = verdadeiro
-
-// var anoNascimento = window.prompt('Qual seu ano de nascimento') // 1998
-
-// var resultado = 2023 - anoNascimento
-
-// console.log(resultado)
-
-// if (resultado >= 18) {
-//   console.log('Sim o usuario é maior de idade')
-// } else {
-//   console.log('Não pode acessar')
-// }
-
-// var idade = window.prompt('Digite sua idade')
-// var nota = window.prompt('Digite a nota')
-
-// tenha mais de 18 anos e tenha uma nota maior que 6
-
-// var resposta = idade >= 18 && nota >= 6
-
-// !not
-// console.log(!resposta)
 
 // exercicio 1
 //  ajude o professor, ele digitara 3 notas , calcule a media e retorne 
 //  se ele passou ou não de ano  , não enviar em console.log
-// deixa BUNITO estiliza bastante.
+// deixa BUNITO estiliza bastante. innerHTML e o input
 
 // exercicio 2
 // 1 = pedra
@@ -48,6 +15,47 @@
 
 // console.log('wasdsasadas consoleeeeeee')
 // document.write(`<div>asdsadsa</div>`)
+// innerHTMl ou textContent
+
+// mapas || mapeamento 
+// DOM - Modelo de Objeto de Documentos 
+
+var input = document.querySelector('.input')
+var button = document.querySelector('.button')
+var result = document.querySelector('.result')
+
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+button.addEventListener('click', function () {
+  var number = Number(input.value) //1
+  // i = i+1  == i+=1 == i++
+  for (var i = 0; i < array.length; i++) {
+    result.innerHTML +=
+      `<li>${number}X ${array[i]} = ${number * array[i]}</li>`
+  }
+})
+
+// index
+// mapas
+// for
+// for of
+// for in
+// map
+// reduce // 0  1  2  3  4  5  6  7  8  9
+
+
+
+// loop       
+// for (var i = 0; i <= 9; i = i + 1) {
+//   console.log([i])
+// }
+
+// exercicio 3
+// digitar um numero até 10 
+// 3 = 1, 2
+
+// 7 = 1, 2, 3, 4, 5, 6
+
 
 
 
